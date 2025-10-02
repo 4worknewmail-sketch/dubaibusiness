@@ -92,7 +92,7 @@ export const BLOGS: BlogPost[] = [
     content: [
       {
         type: "p",
-        text: "Do free‑zone companies still benefit from 0%? Yes—when they qualify as Qualifying Free Zone Persons (QFZPs).",
+        text: "When the UAE Corporate Tax regime came into effect, one of the most asked questions was: \"Do free-zone companies still benefit from 0% tax?\"",
       },
       { type: "h2", text: "What Is a Qualifying Free Zone Person (QFZP)?" },
       {
