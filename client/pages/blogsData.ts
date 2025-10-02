@@ -83,9 +83,9 @@ export const BLOGS: BlogPost[] = [
   },
   {
     slug: "uae-corporate-tax-freezone-0-in-practice",
-    title: "UAE Corporate Tax: Free‑zone 0% in Practice",
+    title: "UAE Corporate Tax: Free-Zone 0% in Practice",
     summary:
-      "How QFZPs access 0% on qualifying income, the de‑minimis rule, excluded activities and ongoing compliance.",
+      "How QFZPs can maintain the 0% corporate tax rate by meeting substance, income, and compliance requirements.",
     date: "2025-09-01",
     tag: "Tax",
     image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg",
