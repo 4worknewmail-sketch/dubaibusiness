@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { BLOGS } from "./blogsData";
 import { m } from "framer-motion";
