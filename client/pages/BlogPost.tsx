@@ -54,7 +54,7 @@ export default function BlogPost() {
         </m.div>
         <h1 className="mt-6 text-3xl font-bold tracking-tight">{post.title}</h1>
         <div className="mt-2 text-xs text-muted-foreground">{post.tag} · {new Date(post.date).toLocaleDateString()}</div>
-        <article className="prose prose-sm mt-6 max-w-none dark:prose-invert">
+        <article className="prose prose-sm mt-6 max-w-none text-justify dark:prose-invert prose-p:text-justify prose-li:text-justify">
           {post.content.map((b, i) => {
             if (b.type === "h2") return <h2 key={i}>{b.text}</h2>;
             if (b.type === "ul") return (
