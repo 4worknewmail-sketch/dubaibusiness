@@ -8,7 +8,7 @@ export default function TaxLegal() {
         <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg" loading="lazy" decoding="async" alt="Corporate tax and VAT planning documents" className="h-56 w-full object-cover" />
       </m.div>
       <h1 className="text-3xl font-bold tracking-tight text-center">Tax & Legal Hub (UAE)</h1>
-      <p className="mt-4 max-w-3xl text-center text-muted-foreground mx-auto">
+      <p className="mx-auto mt-4 max-w-3xl text-center text-muted-foreground">
         Corporate Tax (CT) at 9% above AED 375,000 and 0% on qualifying free-zone income for QFZPs that meet all conditions, VAT at 5% with a 28-day filing/payment window, and cross-cutting regimes like ESR and UBO set the baseline. Below is a practical breakdown with inclusions, timelines and pitfalls.
       </p>
 
