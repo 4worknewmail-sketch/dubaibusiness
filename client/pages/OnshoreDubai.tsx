@@ -49,11 +49,62 @@ export default function OnshoreDubai() {
       <div className="mx-auto mt-8 max-w-3xl rounded-xl border bg-card p-6 text-sm">
         <h2 className="text-base font-semibold">Contacts</h2>
         <ul className="mt-2 space-y-1">
-          <li>Invest in Dubai — invest.dubai.ae</li>
-          <li>Dubai DED — det.gov.ae (Dubai Economy & Tourism)</li>
-          <li>MOHRE — mohre.gov.ae</li>
-          <li>Federal Tax Authority — tax.gov.ae</li>
-          <li>Dubai Land Department (Ejari) — dld.gov.ae</li>
+          <li>
+            Invest in Dubai —
+            <a
+              href="https://invest.dubai.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-1 text-primary underline-offset-2 hover:underline"
+            >
+              invest.dubai.ae
+            </a>
+          </li>
+          <li>
+            Dubai DED —
+            <a
+              href="https://det.gov.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-1 text-primary underline-offset-2 hover:underline"
+            >
+              det.gov.ae
+            </a>
+            <span className="ml-1 text-muted-foreground">(Dubai Economy & Tourism)</span>
+          </li>
+          <li>
+            MOHRE —
+            <a
+              href="https://www.mohre.gov.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-1 text-primary underline-offset-2 hover:underline"
+            >
+              mohre.gov.ae
+            </a>
+          </li>
+          <li>
+            Federal Tax Authority —
+            <a
+              href="https://tax.gov.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-1 text-primary underline-offset-2 hover:underline"
+            >
+              tax.gov.ae
+            </a>
+          </li>
+          <li>
+            Dubai Land Department (Ejari) —
+            <a
+              href="https://www.dld.gov.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-1 text-primary underline-offset-2 hover:underline"
+            >
+              dld.gov.ae
+            </a>
+          </li>
         </ul>
       </div>
 
