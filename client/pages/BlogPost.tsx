@@ -64,7 +64,7 @@ export default function BlogPost() {
                 <h2
                   key={index}
                   className={cn(
-                    "text-lg font-semibold leading-6",
+                    "mt-6 text-lg font-semibold leading-6",
                     index === 0 ? "mt-4" : undefined,
                     prevType === "h2" ? "mt-4" : undefined,
                     prevType === "p" ? "mt-6" : undefined,
