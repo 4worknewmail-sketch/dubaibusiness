@@ -599,7 +599,7 @@ export const BLOGS: BlogPost[] = [
       { type: "h2", text: "Keep Your Paper Trail" },
       {
         type: "p",
-        text: "Here’s where a lot of investors trip up: they pay the fees, get the certificates, and then misplace them. Months later, when it’s time for renewal, refinancing, or banking due diligence, they��re scrambling.",
+        text: "Here’s where a lot of investors trip up: they pay the fees, get the certificates, and then misplace them. Months later, when it’s time for renewal, refinancing, or banking due diligence, they are scrambling.",
       },
       { type: "p", text: "Set up a vault (digital or physical) for:" },
       {
