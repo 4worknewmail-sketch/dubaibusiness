@@ -107,7 +107,7 @@ export default function SetupUAE() {
       <div className="mx-auto max-w-3xl text-center">
         <div className="mx-auto mb-6 max-w-5xl overflow-hidden rounded-2xl border">
           <img
-            src="https://images.pexels.com/photos/1610973/pexels-photo-1610973.jpeg"
+            src="https://cdn.builder.io/api/v1/image/assets%2Fa5cb23e37d454cde83d51afd99007581%2F75ff19d57fe745dd98ded824f0269756?format=webp&width=800"
             loading="eager"
             decoding="async"
             fetchPriority="high"

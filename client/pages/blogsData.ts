@@ -83,47 +83,109 @@ export const BLOGS: BlogPost[] = [
   },
   {
     slug: "uae-corporate-tax-freezone-0-in-practice",
-    title: "UAE Corporate Tax: Free‑zone 0% in Practice",
+    title: "UAE Corporate Tax: Free-Zone 0% in Practice",
     summary:
-      "How QFZPs access 0% on qualifying income, the de‑minimis rule, excluded activities and ongoing compliance.",
+      "How QFZPs can maintain the 0% corporate tax rate by meeting substance, income, and compliance requirements.",
     date: "2025-09-01",
     tag: "Tax",
     image: "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg",
     content: [
       {
         type: "p",
-        text: "Do free‑zone companies still benefit from 0%? Yes—when they qualify as Qualifying Free Zone Persons (QFZPs).",
+        text: 'When the UAE Corporate Tax regime came into effect, one of the most asked questions was: "Do free-zone companies still benefit from 0% tax?"',
+      },
+      {
+        type: "p",
+        text: "The answer is yes, but only under very specific conditions. Free-zone entities that qualify as Qualifying Free Zone Persons (QFZPs) can still enjoy a 0% rate on eligible income. Here's how it works in practice.",
       },
       { type: "h2", text: "What Is a Qualifying Free Zone Person (QFZP)?" },
       {
         type: "p",
-        text: "A QFZP is an entity in a recognised UAE free zone that meets FTA conditions to access 0% on qualifying income.",
+        text: "A QFZP is a company or legal entity established in a recognized UAE free zone that meets the Federal Tax Authority's (FTA) conditions to access the 0% corporate tax rate. This incentive is designed to keep free zones attractive for investment while ensuring compliance and transparency under the new corporate tax framework.",
       },
       { type: "h2", text: "Key Conditions for 0% Corporate Tax" },
       {
-        type: "ul",
-        items: [
-          "Adequate substance: people, premises and expenditure in a free zone.",
-          "Qualifying vs non‑qualifying income: keep non‑qualifying within de‑minimis (≤ 5% of revenue or AED 5m).",
-          "Avoid excluded activities and mainland transactions unless carved‑out.",
-        ],
+        type: "p",
+        text: "To maintain QFZP status, your business must check several boxes:",
       },
-      { type: "h2", text: "Compliance Still Matters—Even at 0%" },
+      { type: "h2", text: "1. Adequate Substance" },
+      {
+        type: "p",
+        text: "You must have a real presence in a UAE free zone, not just a paper registration. This means:",
+      },
       {
         type: "ul",
         items: [
-          "CT registration and annual return are mandatory.",
-          "Maintain transfer pricing documentation when thresholds trigger.",
+          "People: Employ staff proportionate to your activities.",
+          "Premises: Maintain physical office space or facilities within the free zone.",
+          "Expenditure: Spend an adequate amount locally to support operations.",
         ],
+      },
+      { type: "h2", text: "2. Qualifying Income vs Non-Qualifying Income" },
+      {
+        type: "p",
+        text: "Qualifying income that can remain at 0% includes transactions with non-residents, other free-zone entities, and income from certain approved activities.",
+      },
+      {
+        type: "p",
+        text: "Non-qualifying income is subject to 9% corporate tax. However, if non-qualifying income stays within the de-minimis threshold—generally up to 5% of total revenue or AED 5 million, whichever is lower—you can still preserve your QFZP status.",
+      },
+      { type: "h2", text: "3. Avoid Excluded Activities" },
+      {
+        type: "p",
+        text: "Certain activities are excluded from the 0% benefit, such as income from transactions with mainland UAE businesses (unless specifically exempt) and certain regulated financial or domestic activities. If you perform these, the relevant income may automatically fall under the 9% rate.",
+      },
+      { type: "h2", text: "Compliance Still Matters, Even at 0%" },
+      {
+        type: "p",
+        text: 'A big misconception is that 0% means "no obligations." In reality, compliance remains critical:',
+      },
+      {
+        type: "ul",
+        items: [
+          "Corporate Tax registration is mandatory. Every free-zone company must register with the FTA.",
+          "Annual filing is required even if all your income qualifies at 0%.",
+          "Transfer pricing rules apply when thresholds are triggered, so keep contemporaneous documentation.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Non-compliance can lead to penalties that wipe out the benefit of your 0% rate.",
       },
       { type: "h2", text: "Why This Matters for Businesses" },
       {
+        type: "p",
+        text: "The UAE wants to balance its reputation as a global business hub with alignment to international tax standards.",
+      },
+      {
+        type: "p",
+        text: "The QFZP regime preserves competitiveness for free zones, ensures only genuine businesses with real substance enjoy the incentive, and forces higher standards of governance and documentation.",
+      },
+      {
+        type: "p",
+        text: "For businesses, this means 0% tax is achievable, but only with proper structuring, compliance, and ongoing monitoring.",
+      },
+      { type: "h2", text: "Final Thoughts" },
+      {
+        type: "p",
+        text: "If you operate in a UAE free zone, the 0% corporate tax regime remains within reach, but it is no longer automatic. To take advantage:",
+      },
+      {
         type: "ul",
         items: [
-          "Preserves competitiveness of free zones while aligning with global standards.",
-          "Rewards genuine substance and governance.",
-          "0% is achievable with proper structuring and monitoring.",
+          "Ensure substance across people, premises, and spending.",
+          "Separate qualifying and non-qualifying income carefully.",
+          "Stay away from excluded activities unless you have a specific exemption.",
+          "Always register, file, and document your position.",
         ],
+      },
+      {
+        type: "p",
+        text: "Working with tax advisors or legal consultants can help you design operations that keep you within the qualifying framework.",
+      },
+      {
+        type: "p",
+        text: "Bottom line: Free zones remain one of the UAE's most powerful tools for attracting investment, but under corporate tax, businesses must earn their 0%.",
       },
     ],
   },
@@ -187,7 +249,7 @@ export const BLOGS: BlogPost[] = [
       {
         type: "ul",
         items: [
-          "If your lifeline is ships and containers �� JAFZA",
+          "If your lifeline is ships and containers → JAFZA",
           "If you’re more about trading and commodities → DMCC",
           "If you need space to grow with industrial infrastructure → KEZAD",
         ],
@@ -385,7 +447,7 @@ export const BLOGS: BlogPost[] = [
     content: [
       {
         type: "p",
-        text: "For any company thinking about going public, finance isn’t just about “keeping the books.” It��s about proving to investors and regulators that you can run a disciplined, transparent operation. The first thing they’ll look at? How quickly and accurately you close your books each month.",
+        text: "For any company thinking about going public, finance isn’t just about “keeping the books.” It's about proving to investors and regulators that you can run a disciplined, transparent operation. The first thing they’ll look at? How quickly and accurately you close your books each month.",
       },
       {
         type: "p",
@@ -537,7 +599,7 @@ export const BLOGS: BlogPost[] = [
       { type: "h2", text: "Keep Your Paper Trail" },
       {
         type: "p",
-        text: "Here’s where a lot of investors trip up: they pay the fees, get the certificates, and then misplace them. Months later, when it’s time for renewal, refinancing, or banking due diligence, they��re scrambling.",
+        text: "Here’s where a lot of investors trip up: they pay the fees, get the certificates, and then misplace them. Months later, when it’s time for renewal, refinancing, or banking due diligence, they are scrambling.",
       },
       { type: "p", text: "Set up a vault (digital or physical) for:" },
       {
