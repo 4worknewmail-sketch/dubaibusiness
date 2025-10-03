@@ -56,14 +56,49 @@ export default function BlogPost() {
         <h1 className="mt-6 text-3xl font-bold tracking-tight">{post.title}</h1>
         <div className="mt-2 text-xs text-muted-foreground">{post.tag} · {new Date(post.date).toLocaleDateString()}</div>
         <article className="prose prose-sm mt-6 max-w-none text-justify dark:prose-invert prose-p:text-justify prose-li:text-justify">
-          {post.content.map((b, i) => {
-            if (b.type === "h2") return <h2 key={i}>{b.text}</h2>;
-            if (b.type === "ul") return (
-              <ul key={i}>
-                {b.items!.map((it, j) => <li key={j}>{it}</li>)}
-              </ul>
+          {post.content.map((block, index) => {
+            const prevType = index > 0 ? post.content[index - 1].type : undefined;
+
+            if (block.type === "h2") {
+              return (
+                <h2
+                  key={index}
+                  className={cn(
+                    "text-lg font-semibold leading-6",
+                    index === 0 ? "mt-4" : undefined,
+                    prevType === "h2" ? "mt-4" : undefined,
+                    prevType === "p" ? "mt-6" : undefined,
+                    prevType === "ul" ? "mt-8" : undefined,
+                  )}
+                >
+                  {block.text}
+                </h2>
+              );
+            }
+
+            if (block.type === "ul") {
+              return (
+                <ul key={index} className="mt-3 list-disc space-y-1 pl-5">
+                  {block.items!.map((item, j) => (
+                    <li key={j} className="marker:text-muted-foreground">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              );
+            }
+
+            return (
+              <p
+                key={index}
+                className={cn(
+                  prevType === "h2" ? "mt-2" : "mt-4",
+                  prevType === undefined ? "mt-0" : undefined
+                )}
+              >
+                {block.text}
+              </p>
             );
-            return <p key={i}>{b.text}</p>;
           })}
         </article>
         <div className="mt-8">
