@@ -249,7 +249,7 @@ export const BLOGS: BlogPost[] = [
       {
         type: "ul",
         items: [
-          "If your lifeline is ships and containers �� JAFZA",
+          "If your lifeline is ships and containers → JAFZA",
           "If you’re more about trading and commodities → DMCC",
           "If you need space to grow with industrial infrastructure → KEZAD",
         ],
