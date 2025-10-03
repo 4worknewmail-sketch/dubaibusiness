@@ -92,7 +92,7 @@ export const BLOGS: BlogPost[] = [
     content: [
       {
         type: "p",
-        text: "When the UAE Corporate Tax regime came into effect, one of the most asked questions was: \"Do free-zone companies still benefit from 0% tax?\"",
+        text: 'When the UAE Corporate Tax regime came into effect, one of the most asked questions was: "Do free-zone companies still benefit from 0% tax?"',
       },
       {
         type: "p",
@@ -138,7 +138,7 @@ export const BLOGS: BlogPost[] = [
       { type: "h2", text: "Compliance Still Matters, Even at 0%" },
       {
         type: "p",
-        text: "A big misconception is that 0% means \"no obligations.\" In reality, compliance remains critical:",
+        text: 'A big misconception is that 0% means "no obligations." In reality, compliance remains critical:',
       },
       {
         type: "ul",
