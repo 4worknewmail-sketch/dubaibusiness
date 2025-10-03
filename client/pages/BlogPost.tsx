@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { BLOGS } from "./blogsData";
 import { m } from "framer-motion";
 import { setPageMeta, setJsonLd } from "@/lib/seo";
+import { cn } from "@/lib/utils";
 
 export default function BlogPost() {
   const { slug } = useParams();
