@@ -447,7 +447,7 @@ export const BLOGS: BlogPost[] = [
     content: [
       {
         type: "p",
-        text: "For any company thinking about going public, finance isn’t just about “keeping the books.” It��s about proving to investors and regulators that you can run a disciplined, transparent operation. The first thing they’ll look at? How quickly and accurately you close your books each month.",
+        text: "For any company thinking about going public, finance isn’t just about “keeping the books.” It's about proving to investors and regulators that you can run a disciplined, transparent operation. The first thing they’ll look at? How quickly and accurately you close your books each month.",
       },
       {
         type: "p",
